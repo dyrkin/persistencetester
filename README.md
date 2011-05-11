@@ -16,9 +16,9 @@ or in case if your connection.properties file name is "connection.properties" yo
 
 Connection properties file looks like this:
 
-> `connection.url=jdbc:postgresql://localhost:5432/daotesthelper`
-> `connection.username=postgres`
-> `connection.password=root`
+> `connection.url=jdbc:postgresql://localhost:5432/daotesthelper`  
+> `connection.username=postgres`  
+> `connection.password=root`  
 
 For now should be full connection url including host, port, dbname and engine identifier.
 
