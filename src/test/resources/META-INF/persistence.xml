@@ -4,7 +4,7 @@
              version="1.0">
     <persistence-unit name="mysql">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <class>com.ezadyra.tools.daotesthelper.test.entity.CompactDisk</class>
+        <class>com.eugenezadyra.tools.daotesthelper.test.entity.CompactDisk</class>
 		<properties>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
 			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
@@ -18,7 +18,7 @@
 
 	<persistence-unit name="postgres">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <class>com.ezadyra.tools.daotesthelper.test.entity.CompactDisk</class>
+        <class>com.eugenezadyra.tools.daotesthelper.test.entity.CompactDisk</class>
 		<properties>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
 			<property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
