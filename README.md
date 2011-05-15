@@ -1,5 +1,7 @@
 Some tools thats simplifies testing of java DAOs. **For now pack includes only dump uploader for mysql and postgresql.**
 
+Maven repository which contains latest build is: **[http://dyrkin.github.com/repo/](http://dyrkin.github.com/repo/ "Dyrkin's maven repo")**
+
 Simple using. Just put same piece of code to you **@BeforeClass** method:
 
 > `new DumpLoadHelper("connection.properties", "dump.sql").load();`
