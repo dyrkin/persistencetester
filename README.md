@@ -8,7 +8,7 @@ or if you want to use few dumps:
 
 > `new DumpLoadHelper("connection.properties", new String[]{"dump1.sql", "dump2.sql", "dump3.sql"}).load();`
 
-or in case if your connection.properties file name is "connection.properties" you can remove this parameter because application use it as default file name:
+or in case if your connection.properties file name is **"connection.properties"** you can remove this parameter because application use it as default file name:
 
 > `new DumpLoadHelper("dump.sql").load();`
 
@@ -24,7 +24,7 @@ For now should be full connection url including host, port, dbname and engine id
 
 **Of course you must have preinstalled software like psql, createdb, dropdb - for pasgres and mysql, mysqladmin - for mysql. These application should be available from the $PATH**
 
-To use transactional entityManager extend your test class from DaoTestHelper? and simply put
+To use transactional **entityManager** just extend your test class from **PesistenceTester** and simply put
 
 > `setupEntityManager(persistenceUnitName);`
 
