@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * @author eugene zadyra
  */
-public class AbstractDumpLoader {
+public abstract class AbstractDumpLoader {
 	private static Logger log = LoggerFactory.getLogger(AbstractDumpLoader.class);
 
 	public void loadDumps(CommandHolder commandHolder) throws IOException, InterruptedException {
